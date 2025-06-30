@@ -1,12 +1,10 @@
-# Abishek_K_S_Cache
-
-# 🧠 Thread-Safe In-Memory Cache System (Java)
+#  Thread-Safe In-Memory Cache System (Java)
 
 A lightweight thread-safe in-memory caching system implemented in pure Java using the MVC pattern. Supports LRU eviction, TTL expiration, concurrency, and cache statistics.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Requirements:
 - JDK 21+

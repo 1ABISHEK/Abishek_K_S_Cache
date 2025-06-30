@@ -24,22 +24,34 @@ mvn test
 
 
 ## Dependencies:
+
 Java 21
+
 JUnit 5 (Jupiter)
+
 Maven Surefire Plugin
 
 ## Design Decisions:
+
 O(1) operations using HashMap + Doubly Linked List.
+
 Cache entries expire based on TTL timestamps.
+
 LRU Eviction triggered when max size exceeds.
+
 Auto background cleanup thread for expired entries.
 
 ## Concurrency Model:
+
 Uses synchronized methods and fine-grained locking.
+
 Read/write operations are thread-safe.
+
 Cleanup thread runs independently.
 
 ## Eviction Logic:
+
 Cache maintains access order via Doubly Linked List.
+
 Oldest (least recently used) node is evicted when limit exceeds.
 

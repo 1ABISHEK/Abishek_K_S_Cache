@@ -55,3 +55,9 @@ Cache maintains access order via Doubly Linked List.
 
 Oldest (least recently used) node is evicted when limit exceeds.
 
+
+## Sample Stats Output:
+
+![Output -1](https://github.com/user-attachments/assets/c1fca631-d016-44a9-9f0e-314565f863ac)
+
+

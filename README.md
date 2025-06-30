@@ -61,3 +61,13 @@ Oldest (least recently used) node is evicted when limit exceeds.
 ![Output -1](https://github.com/user-attachments/assets/c1fca631-d016-44a9-9f0e-314565f863ac)
 
 
+
+![Output- 2](https://github.com/user-attachments/assets/bcd5358b-417a-460c-ab5b-7120976ee4ba)
+
+
+
+![Output- 3](https://github.com/user-attachments/assets/c4f4453a-ce08-491a-b008-da9d8eb1e592)
+
+
+![Test Cases](https://github.com/user-attachments/assets/bc223a0d-9fe9-46ce-ac31-1e959b9a3c16)
+
